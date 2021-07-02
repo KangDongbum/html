@@ -50,3 +50,14 @@ table - 표를 구성할때
 
 - 상대 경로
 	현재 파일이 위치한 경로 기준으로 상대적인 경로
+
+시멘틱 태그 - 태그 자체에 의미가 있는 태그
+<header></header>
+<nav></nav>
+<footer></footer>
+<adress></adress>
+
+양식 태그
+<form>
+	<input type="text"> -> 글
+</form>
