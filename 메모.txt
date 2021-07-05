@@ -78,8 +78,10 @@ form
 	action - 양식 데이터를 전송할 URL
 	
 	target - 전송할 창
-	
-	enctype
+				_self - 현재 창 (기본 값)
+				_balnk - 새 로운 창
+				_iframe - 내부 창의 name 속성 값
+	enctype - 파일을 업로드 할때
 	
 input, select, textarea
 데이터를 찾을 수 있는 속성 - name
@@ -89,4 +91,94 @@ radio.checkbox -> 값을 선택하는 속성 checked
 
 select에서 값을 선택하는 속성 -> selected (option의 정의)
 
-회원가입 양식
+textarea
+	- rows - 영역을 몇줄 만큼 늘릴 것인지
+	- cols  - 영역을 몇칸 만큼 늘릴 것인지
+
+input 
+	type - 버튼관련 타입 submit(제출하기) |button(그냥 버튼) |reset(양식 취소)
+
+placeholder - 안내문구
+
+
+브라우저 - 자바스크립트 해석기
+(자바스크립트 런타임)
+
+자바스크립트
+- 사용자와 상호작용
+
+자바스크립트 코어 소스 (ECMAScript)
+브라우저 관련 소스 (브라우저에만 있는 소스)
+
+색상
+
+경계선
+글꼴 색상
+배경색
+1. 색상명
+red, blue. green, yellow
+
+2.RGB
+	GDE,    Green      Blue
+	(0~255)(0~255) (0~255)
+3.HEX 코드(16진수 코드)
+		Red
+	-RGB 255,0,0
+	16진수 ff0000    
+4.RGBA
+	A - 알파채널(투명도) 0~1
+	0에 가까울 수록 투명, 1에 가까울수록 불투명
+	
+
+align - 가로 정렬(왼쪽 - left, 가운데 - center, 오른쪽 - right)
+valign - 수직 정렬(위- top, 가운데 - middle, 아래 - bottom)
+
+&nbsp; -> 공백 1개
+&amp; -> &
+&lt; -> <
+&gt; -> >
+
+a
+	- href - 링크 이동
+	- target - 이동할 창
+				_self - 현재 창 (기본 값)
+				_balnk - 새 로운 창
+				
+	내부 창의 name 창
+	
+padding - 내부 여백
+margin - 외부 여백
+
+table
+	th, td
+		rowspan - 행 병합
+		colspan - 열 병합
+	
+img
+	src - 이미지 경로
+	width
+	height
+	alt - alternative text(대체문구)
+	
+그룹화 태그
+<fieldset>
+	<legend>그룹제목</legend>
+</fieldset>
+
+id - checkbox, radio
+for - label
+
+placeholder - 빈 텍스트 박스에 예식 적어줌
+
+select
+multiple - 여러개 선택 가능
+size - 한번에 노출할 갯수
+
+특정 option을 선택 할때 - selected
+
+
+type 
+	- image - 제출 버튼(이미지 제출버튼 - submit와 동일한 기능)
+	  + src 속성 -> 이미지 경로
+	 
+<input type='image' src='이미지 경로'>
